@@ -1,38 +1,209 @@
-.App {
+.containerone {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
+  align-items: center;
+  margin-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.uyt {
+  background-color: white;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  gap: 10px;
+  margin-right: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.hhone {
+  width: 30px;
+  height: 30px;
+}
+.kktwo {
+  background-color: #237ced;
+  width: 70px;
+  height: 36px;
+  border-color: #237ced;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-family: IRANSans, "sans-serif";
+  border: none;
+}
+.cvb {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+.der {
+  background-color: #237ced;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+}
+.kjh {
+  background-color: #237ced;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.azs {
+  background-color: rgb(236, 236, 234);
+  width: 100%;
+  height: 1140px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.jiu {
+  margin: 10px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 2;
+}
+.frt {
+  width: 100%;
+  border-radius: 10px;
+}
+.hui {
+  background-color: rgb(236, 236, 234);
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  color: #237ced;
+  font-size: 15px;
+  line-height: 2;
+}
+.zxs {
+  background-color: rgb(236, 236, 234);
+  text-align: right;
+  margin-right: 30px;
+  color: #237ced;
+  font-size: 15px;
+  line-height: 2;
+  color: black;
+}
+.fko {
+  background-color: rgb(236, 236, 234);
+  text-align: right;
+  margin-right: 30px;
+  margin-top: -7px;
+  color: black;
+  font-size: 15px;
+  line-height: 2;
+}
+.hvr {
+  color: #237ced;
+  text-align: right;
+  font-size: 15px;
+  line-height: 2;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.fdrs {
+  background-color: rgb(236, 236, 234);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+  gap: 5px;
+}
+@keyframes greenPulse {
+  from {
+    -webkit-box-shadow: -10 0 5px blue;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 50px blue;
+  }
+  to {
+    -webkit-box-shadow: 0 0 30px blue;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+div.cirrcle {
+  margin: 100px auto;
+  width: 70px;
+  height: 70px;
+}
+.cirrcle {
+  position: fixed;
+  left: 10px;
+  bottom: -90px;
+}
+.cirrcle {
+  -moz-border-radius: 200px/200px;
+  -webkit-border-radius: 200px 200px;
+  border-radius: 200px/200px;
+  border: 1px solid rgb(216, 216, 226);
+  width: 200px;
+  height: 200px;
+  outline: none;
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+.callcenter {
+  width: 50px;
+  position: fixed;
+  left: 20px;
+  bottom: 17.5px;
+}
+.yji {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 576px) {
+  .azs {
+    border-radius: 10px;
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+  .xjo {
+    width: 50%;
+  }
+  .qbi {
+    width: 50%;
+  }
+
+  .jiu {
+  }
+  .frt {
+    height: 470px;
+  }
+  .hui {
+    font-size: 13px;
+  }
+  .zxs {
+    font-size: 13px;
+  }
+  .fko {
+  }
+  .hvr {
+    position: relative;
+    left: 600px;
+    top: 250px;
+  }
+  .fdrs {
+  }
+  .yji {
   }
 }
