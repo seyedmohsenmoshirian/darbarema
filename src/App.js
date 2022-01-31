@@ -34,8 +34,8 @@ function App() {
 
     <div className="fdrs">
       <div className="hui">:ساعات پاسخگویی</div>
-      <div className="zxs">7روز هفته ، 24 ساعت شبانه روز پاسخگی شما هستیم</div>
-      <div className="fko">021-91079677</div>
+      <div className="zxs">&#1639;	روز هفته ،&#1634;&#1636;	شبانه روز پاسخگوی شما هستیم	 </div>
+      <div className="fko">&#1632;&#1634;&#1633;&#1641;&#1633;&#1632;&#1639;&#1641;&#1638;&#1639;&#1639;											</div>
     </div>
 
 
@@ -50,7 +50,7 @@ function App() {
 
 
     <div className="fdrs">
-      <div className="hui">زمان احراز هویت: </div>
+      <div className="hui">:زمان احراز هویت </div>
       <div className="zxs">همه روزه حتی در ایام تعطیل از ساعت 8  صبح  تا 17 عصر</div>
     </div>
 
@@ -58,13 +58,13 @@ function App() {
 
 
     <div className="fdrs">
-      <div className="hui">علامت تجاری : </div>
+      <div className="hui">:علامت تجاری</div>
       <div className="zxs">به مو جب اظهار نامه ثبت علامت  تجاری به شماره 139850140001040783علامت تجاری "بیت برگ"در مرکز مالکیت معنوی ج.ا ثبت گردیده است.</div>
     </div>
 
 
     <div className="fdrs">
-     <div className="hui">ادرس :</div>
+     <div className="hui">:ادرس</div>
      <div className="zxs">تهران، مرکز نواوری کسب و کار دانشگاه تهران واقع در دانشکده مدیریت (مراجعات حضوری  با هماهنگی قبلی)</div>
      <div className="hvr">بازگشت</div>
     </div>
