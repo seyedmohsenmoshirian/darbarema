@@ -67,6 +67,7 @@ function App() {
      <div className="hui">:ادرس</div>
      <div className="zxs">تهران، مرکز نواوری کسب و کار دانشگاه تهران واقع در دانشکده مدیریت (مراجعات حضوری  با هماهنگی قبلی)</div>
      <div className="hvr">بازگشت</div>
+
     </div>
 
 
@@ -75,7 +76,6 @@ function App() {
 
 
 </div>
-
 
 </div>
 
@@ -102,6 +102,7 @@ function App() {
 
 
           </div>
+
   );
 }
 

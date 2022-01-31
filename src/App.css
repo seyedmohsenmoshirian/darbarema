@@ -66,7 +66,6 @@
 .azs {
   background-color: rgb(236, 236, 234);
   width: 100%;
-  height: 1140px;
   margin: 20px;
   border-radius: 10px;
 }
@@ -82,7 +81,6 @@
   border-radius: 10px;
 }
 .hui {
-  background-color: rgb(236, 236, 234);
   text-align: right;
   margin-right: 30px;
   margin-top: 20px;
@@ -92,7 +90,6 @@
   font-family: "aaa";
 }
 .zxs {
-  background-color: rgb(236, 236, 234);
   text-align: right;
   margin-right: 30px;
   color: #237ced;
@@ -103,7 +100,6 @@
   font-family: "aaa";
 }
 .fko {
-  background-color: rgb(236, 236, 234);
   text-align: right;
   margin-right: 30px;
   margin-top: -7px;
@@ -116,13 +112,12 @@
   color: #237ced;
   text-align: right;
   font-size: 15px;
-  line-height: 2;
-  margin-top: 30px;
-  margin-right: 10px;
+  margin-top: 25px;
+  margin-right: 15px;
   font-family: "aaa";
+  margin-bottom: 5px;
 }
 .fdrs {
-  background-color: rgb(236, 236, 234);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +174,7 @@ div.cirrcle {
 @media only screen and (min-width: 576px) {
   .azs {
     border-radius: 10px;
-    height: 800px;
+    height: 950px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
