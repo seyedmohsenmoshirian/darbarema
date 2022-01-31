@@ -200,9 +200,7 @@ div.cirrcle {
   .fko {
   }
   .hvr {
-    position: relative;
-    left: 600px;
-    top: 250px;
+    display: none;
   }
   .fdrs {
   }
